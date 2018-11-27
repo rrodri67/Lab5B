@@ -85,7 +85,6 @@ def read_file():
     return heap_list   
 
 def main():
-    print("Reading from text file")
     read_list = read_file()
     print("Unsorted: ", read_list)
     heap_sort(read_list)
